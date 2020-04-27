@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Tracking all confirmed, recovered and deaths cases of coronavirus by all countries",
   "private": true,
+  "main" : "app.js",
   "engines": {
     "node": "12.14.0",
     "npm": "6.13.4"
@@ -26,11 +27,11 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server.js",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "heroku-postbuild": "webpack"
+    "heroku-postbuild": "npm run build"
   },
   "eslintConfig": {
     "extends": "react-app"
