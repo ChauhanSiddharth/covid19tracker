@@ -9,7 +9,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import { faVirus, faUserCheck, faSkull } from "@fortawesome/free-solid-svg-icons";
 
 const Cards = ({ data : {confirmed, recovered, deaths, lastUpdate}}) => {
-    console.log(confirmed);
+    //console.log(confirmed);
     if(!confirmed){
         return <CircularProgress />;
     }
