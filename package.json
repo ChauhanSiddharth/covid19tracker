@@ -27,11 +27,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "node_modules/.bin/webpack",
-    "dev": "node_modules/.bin/webpack-dev-server",
+    "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "heroku-postbuild": "npm run build"
+    "heroku-postbuild": "webpack"
   },
   "eslintConfig": {
     "extends": "react-app"
