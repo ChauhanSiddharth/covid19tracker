@@ -1,5 +1,5 @@
 {
-  "name": "covid-react",
+  "name": "covid19tracker-sid",
   "version": "0.1.0",
   "description": "Tracking all confirmed, recovered and deaths cases of coronavirus by all countries",
   "private": true,
@@ -26,7 +26,7 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "start": "node App.js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
