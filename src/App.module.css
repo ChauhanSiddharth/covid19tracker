@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(234, 234, 234);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image{
+    width:  150px;
+    margin-top: 50px;
+    animation: rotation 3s infinite linear;
+}
+
+.retroshadow {
+    color: #f6793a;
+    background-color: inherit;
+    letter-spacing: .05em;
+    text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
+  }
+
+
+@media (max-width: 770px){
+    .container{
+        margin: 0 10px;
+    }
+    .image{
+        width: 50%;
+    }
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
