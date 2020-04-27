@@ -26,8 +26,7 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "dev": "webpack-dev-server --content-base --inline --hot",
-    "start": "harp server ~/public --port $PORT",
+    "start": "node App.js",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
