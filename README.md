@@ -1,8 +1,6 @@
 ## Covid-19 Tracker
 
-Tracking all confirmed, recovered and deaths cases of corona virus by all countries. Built using React, Chart.js and Material UI.
-
-Built with ReactJS, Material UI, React Hooks and <a href="https://covid19.mathdro.id/" title="COVID19 API" alt="mathdro API">Covid19 API</a>
+Tracking all confirmed, recovered and deaths cases of corona virus by all countries. Built using React, Chart.js, Material UI and <a href="https://covid19.mathdro.id/" title="COVID19 API" alt="mathdro API">Covid19 API</a>.
 
 Live Demo : <a href="https://covid19tracker-sid.herokuapp.com/" title="Covid19 Tracker" alt="Live Link">Click Here</a>
 
