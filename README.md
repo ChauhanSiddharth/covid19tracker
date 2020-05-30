@@ -1,6 +1,14 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Covid-19 Tracker
 
-## Available Scripts
+Tracking all confirmed, recovered and deaths cases of corona virus by all countries. Built using React, Chart.js and Material UI.
+
+Built with ReactJS, Material UI, React Hooks and <a href="https://covid19.mathdro.id/" title="COVID19 API" alt="mathdro API">Covid19 API</a>
+
+Live Demo : <a href="https://covid19tracker-sid.herokuapp.com/" title="Covid19 Tracker" alt="Live Link">Click Here</a>
+
+<img src="https://i.ibb.co/gzFgsxh/covid19tracker.png" alt="covid19tracker" border="0">
+
+### Available Scripts
 
 In the project directory, you can run:
 
